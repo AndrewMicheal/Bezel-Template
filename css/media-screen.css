@@ -1,0 +1,448 @@
+@media (max-width: 576px) {
+  /****************Start header****************/
+  header {
+    background-color: #fff;
+    color: #000 !important;
+  }
+  .arrows {
+    opacity: 0;
+  }
+  .myborder {
+    border-right: none;
+  }
+  .mycollapse {
+    width: 100%;
+  }
+  .social-media {
+    display: none;
+  }
+  .header-image-device-light {
+    display: none;
+  }
+  .header-image-device-dark {
+    display: block;
+  }
+  header .mycolor {
+    color: #000 !important;
+  }
+  /****************End header****************/
+
+  /****************Start Home****************/
+  .home .content-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  .home .content-text .btn {
+    background-color: transparent;
+    width: 130px;
+  }
+  .my-carousel-control-next {
+    display: none;
+  }
+  /****************End Home****************/
+
+  /****************Start About*************/
+  .about .about-desc {
+    width: 80%;
+    color: var(--mainColor);
+    line-height: 1.5;
+    font-size: 18px;
+    margin: auto;
+  }
+  .about .about-desc span {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+  }
+  /****************End About***************/
+
+  /****************Start Services**********/
+  .services {
+    width: 98%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .service-text h3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .service-text h2 {
+    top: -40px;
+    left: 40%;
+    opacity: 0.1;
+    font-size: 70px;
+  }
+  .service-content-item .service-text-desc {
+    width: 97%;
+    margin: auto;
+    text-align: center;
+  }
+  .item-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 10px;
+  }
+  /****************End Services************/
+
+  /****************Start Pricing***********/
+
+  .slider {
+    padding-bottom: 120px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .slider .image {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .slider span {
+    color: var(--mainColor);
+  }
+  .slider p {
+    width: 100%;
+    margin: auto;
+    line-height: 1.5;
+    color: var(--mainColor);
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  /****************End Pricing***********/
+
+  /****************Start Form************/
+  .contact .map {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30rem;
+  }
+  .contact form {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .contact h3 {
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  .contact h2 {
+    opacity: 0.2;
+    font-size: 70px;
+    position: absolute;
+    left: 5%;
+  }
+  .contact span {
+    display: block;
+    margin-left: 20px;
+  }
+  /****************End Form**************/
+}
+
+@media (min-width: 577px) and (max-width: 767px) /*small*/ {
+  
+  /***************Start Header************/
+  header {
+    background-color: #fff;
+    color: #000 !important;
+  }
+  .myborder {
+    border-right: none;
+  }
+  .mycollapse {
+    width: 100%;
+  }
+  .social-media {
+    display: none;
+  }
+  .header-image-device-light {
+    display: none;
+  }
+  .header-image-device-dark {
+    display: block;
+  }
+  header .mycolor {
+    color: #000 !important;
+  }
+  .social-media {
+    display: none;
+  }
+  /***************End Header*****************/
+
+  /***************Start Home*****************/
+  .home .content-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  .home .content-text .btn {
+    background-color: transparent;
+    width: 130px;
+  }
+  .myborder {
+    border-right: none;
+  }
+  .mycollapse {
+    width: 100%;
+  }
+  /*************End Home************/
+
+  /*************Start About*********/
+  .about .about-desc {
+    width: 97%;
+    color: var(--mainColor);
+  }
+  .about .about-desc span {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    padding: 20px;
+  }
+  /*************End About***********/
+
+  /*************Start Services*******/
+  .services {
+    text-align: center;
+    color: #fff;
+  }
+  .service-text h3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  .service-text h2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+    font-size: 90px;
+  }
+  .service-content-item .service-text-desc {
+    width: 100%;
+  }
+  /**********End services***********/
+
+  /****************Start Pricing***********/
+  .slider {
+    padding-bottom: 120px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .slider .image {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .slider span {
+    color: var(--mainColor);
+  }
+  .slider p {
+    width: 100%;
+    margin: auto;
+    line-height: 1.5;
+    color: var(--mainColor);
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  /****************End Pricing***********/
+
+  /****************Start Form************/
+  .contact .map {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30rem;
+  }
+  .contact form {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .contact h3 {
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  .contact h2 {
+    opacity: 0.2;
+    font-size: 70px;
+    position: absolute;
+    left: 10%;
+  }
+  .contact span {
+    display: block;
+    margin-left: 20px;
+  }
+  /****************End Form**************/
+}
+
+@media (min-width: 768px) and (max-width: 991px) /*medium*/ {
+ 
+  /*************Start Header************/
+  header {
+    background-color: #fff;
+  }
+  header .mycolor {
+    color: #000 !important;
+  }
+  .header-image-device-light {
+    display: none;
+  }
+  .header-image-device-dark {
+    display: block;
+  }
+  .arrows {
+    opacity: 0;
+  }
+  .myborder {
+    border-right: none;
+  }
+  .mycollapse {
+    width: 100%;
+  }
+  .social-media {
+    display: none;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  /*************End Header************/
+
+  /*************Start Home************/
+  .home .content-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  .home .content-text .btn {
+    background-color: transparent;
+    width: 130px;
+  }
+  /*************Start Home************/
+  
+  /*************Start About*********/
+    .about .about-desc {
+      width: 97%;
+      color: var(--mainColor);
+    }
+    .about .about-desc span {
+      position: relative;
+      display: inline-block;
+      width: 15%;
+      padding: 20px;
+    }
+  /*************End About***********/
+
+  /*************Start Services*******/
+  .services {
+    text-align: center;
+    color: #fff;
+  }
+  .service-text h3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  .service-text h2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+    font-size: 90px;
+  }
+  .service-content-item .service-text-desc {
+    width: 100%;
+  }
+  /**************End services*****************/
+
+    /****************Start Pricing***********/
+    .slider {
+      padding-bottom: 120px;
+      width: 100%;
+      background-color: #fff;
+    }
+    .slider .image {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 4%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .slider span {
+      color: var(--mainColor);
+    }
+    .slider p {
+      width: 100%;
+      margin: auto;
+      line-height: 1.5;
+      color: var(--mainColor);
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+      display: none;
+    }
+    /****************End Pricing***********/
+
+     /****************Start Form************/
+  .contact .map {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30rem;
+  }
+  .contact form {
+    margin-left: 20px;
+  }
+  .contact h3 {
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  .contact h2 {
+    opacity: 0.2;
+    font-size: 70px;
+    position: absolute;
+    left: 10%;
+  }
+  .contact span {
+    display: block;
+    margin-left: 20px;
+  }
+  /****************End Form**************/
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1214px) {
+  
+  .mycollapse {
+    width: 100%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+}
